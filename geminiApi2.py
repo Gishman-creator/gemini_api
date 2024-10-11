@@ -58,7 +58,7 @@ def connect_db():
             dbname="readrack3",
             user="postgres",  # Replace with your PostgreSQL username
             password="root",  # Replace with your PostgreSQL password
-            host="postgres",  # Adjust if needed
+            host="localhost",  # Adjust if needed
             port="5432"  # Default PostgreSQL port
         )
         return connection
